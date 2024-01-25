@@ -1,0 +1,45 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.task {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--third-color);
+}
+.text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.raw {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 40px 0;
+}

@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--accent-color);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  height: 80px;
+  gap: 20px;
+}
+
+.logo {
+  display: block;
+  width: 40px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.raw {
+  display: flex;
+  gap: 20px;
+}

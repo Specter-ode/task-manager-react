@@ -1,0 +1,26 @@
+.inputBlock {
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  outline: none;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--main-color);
+  height: 48px;
+  padding: 11px 23px;
+}
+
+.input::placeholder {
+  color: var(--third-color);
+}
+
+.label {
+  font-size: 16px;
+  color: var(--third-color);
+}

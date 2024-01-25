@@ -1,0 +1,48 @@
+{
+  "name": "task-manager-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "axios": "^1.6.5",
+    "date-fns": "^3.3.1",
+    "json-server": "^1.0.0-alpha.22",
+    "modern-normalize": "^2.0.0",
+    "nanoid": "^5.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^10.0.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint:js": "eslint src/**/*.{js,jsx}",
+    "server": "json-server --watch db.json --port 4000"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.2.4"
+  }
+}
